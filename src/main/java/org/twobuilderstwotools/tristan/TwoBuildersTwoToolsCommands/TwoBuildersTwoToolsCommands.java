@@ -14,7 +14,6 @@ import java.io.File;
 import java.io.FileOutputStream;
 import java.io.InputStream;
 import java.io.OutputStream;
-import java.util.ArrayList;
 import java.util.List;
 
 public class TwoBuildersTwoToolsCommands extends JavaPlugin implements Listener {
@@ -45,7 +44,7 @@ public class TwoBuildersTwoToolsCommands extends JavaPlugin implements Listener 
 
     @EventHandler
     public void onCommand(PlayerCommandPreprocessEvent e) {
-        String command = e.getMessage();
+        String command = e.getMessage().replace("/", "");
         Player p = e.getPlayer();
         if (!p.isOp() || !p.hasPermission("2b2t.noblacklist")) {
             if (blacklist.contains(command.toLowerCase())) {
