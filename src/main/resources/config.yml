@@ -1,7 +1,7 @@
 # 2B2TCommands Configuration
 # Blacklisted-Commands : Commands you want to show a custom message for.
 # Blacklisted-Message : Message you want to show if the command is blacklisted (supports & color codes).
-blacklisted-message: "&6You can't do this! Please read &a/guide&6."
+blacklisted-message: '&6You can not do this! Please read &a/guide&6.'
 blacklisted-commands:
   - op
   - deop
@@ -10,7 +10,7 @@ blacklisted-commands:
   - ban-ip
   - pardon
   - pardon-ip
-  - ?
+  - '?'
   - banlist
   - tp
   - give
