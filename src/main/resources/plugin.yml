@@ -1,0 +1,4 @@
+name: 2B2TCommands
+author: iTristan
+version: 1.0-SNAPSHOT
+main: org.twobuilderstwotools.tristan.TwoBuildersTwoToolsCommands.TwoBuildersTwoToolsCommands

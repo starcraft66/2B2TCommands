@@ -1,0 +1,43 @@
+# 2B2TCommands Configuration
+# Blacklisted-Commands : Commands you want to show a custom message for.
+# Blacklisted-Message : Message you want to show if the command is blacklisted (supports & color codes).
+blacklisted-message: '&6You can't do this! Please read &a/guide&6.'
+blacklisted-commands:
+  - op
+  - deop
+  - kick
+  - ban
+  - ban-ip
+  - pardon
+  - pardon-ip
+  - ?
+  - banlist
+  - tp
+  - give
+  - stop
+  - save-all
+  - save-on
+  - save-off
+  - say
+  - whitelist
+  - time
+  - gamemode
+  - xp
+  - toggledownfall
+  - defaultgamemode
+  - seed
+  - enchant
+  - weather
+  - clear
+  - difficulty
+  - spawnpoint
+  - gamerule
+  - effect
+  - testfor
+  - version
+  - ver
+  - plugins
+  - pl
+  - about
+  - reload
+  - timings
